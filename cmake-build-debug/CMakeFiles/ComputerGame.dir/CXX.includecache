@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shelbyetienne/School/ComputerGame/Game.h
+iostream
+-
+
+/Users/shelbyetienne/School/ComputerGame/TicTacToe.cpp
+TicTacToe.h
+/Users/shelbyetienne/School/ComputerGame/TicTacToe.h
+
+/Users/shelbyetienne/School/ComputerGame/TicTacToe.h
+Game.h
+/Users/shelbyetienne/School/ComputerGame/Game.h
+
